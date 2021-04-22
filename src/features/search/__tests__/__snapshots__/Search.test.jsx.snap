@@ -1,0 +1,910 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> should render with given state from Redux store 1`] = `
+<div>
+  <div
+    className="jumbotron"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <div
+        className="col-sm-6"
+      >
+        <h1>
+          Plant finder
+        </h1>
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="input-group"
+            >
+              <input
+                className="form-control"
+                name="term"
+                onChange={[Function]}
+                placeholder="Plant, specie..."
+                type="text"
+                value=""
+              />
+              <div
+                className="input-group-append"
+              >
+                <button
+                  className="btn btn-outlined-light"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  ✖️
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="m-5 row"
+  >
+    <div
+      className="col"
+    >
+      <div>
+        <div
+          className="my-5 p-3 text-dark w-50 row"
+        >
+          <div
+            className="col"
+          >
+            <h3>
+              Filters by characteristics
+            </h3>
+            <form
+              className="my-3"
+            >
+              <div
+                className="form-group"
+                onChange={[Function]}
+              >
+                <label
+                  className="form-label"
+                >
+                  Type
+                </label>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    name="edible"
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Edible
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    name="vegetable"
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Vegetable
+                  </label>
+                </div>
+                <div
+                  className="form-check"
+                >
+                  <input
+                    className="form-check-input"
+                    disabled={false}
+                    name="toxic"
+                    type="checkbox"
+                  />
+                  <label
+                    className="form-check-label"
+                    title=""
+                  >
+                    Toxic
+                  </label>
+                </div>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="formBasicRange"
+                >
+                  Light
+                </label>
+                <select
+                  className="form-control"
+                  id="formBasicRange"
+                  name="light"
+                  onChange={[Function]}
+                >
+                  <option
+                    value="all"
+                  >
+                    All
+                  </option>
+                  <option
+                    value="full_sun"
+                  >
+                    🌞🌞 Full sun
+                  </option>
+                  <option
+                    value="part_sun"
+                  >
+                    🌞 Part sun
+                  </option>
+                  <option
+                    value="middle"
+                  >
+                    🌞☁️ Middle
+                  </option>
+                  <option
+                    value="part_shade"
+                  >
+                    ☁️ Part shade
+                  </option>
+                  <option
+                    value="full_shade"
+                  >
+                    ☁️☁️ Full shade
+                  </option>
+                </select>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="form-label"
+                >
+                  Colors: 
+                </label>
+                <div
+                  className="circle-picker "
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexWrap": "wrap",
+                      "marginBottom": -14,
+                      "marginRight": -14,
+                      "width": 252,
+                    }
+                  }
+                >
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #ffffff",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #ffffff",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #ffffff",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #ffffff",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #ffffff",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#ffffff"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #ff0000",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #ff0000",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #ff0000",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #ff0000",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #ff0000",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#ff0000"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #a52a2a",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #a52a2a",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #a52a2a",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #a52a2a",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #a52a2a",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#a52a2a"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #ffa500",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #ffa500",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #ffa500",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #ffa500",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #ffa500",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#ffa500"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #ffff00",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #ffff00",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #ffff00",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #ffff00",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #ffff00",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#ffff00"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #008000",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #008000",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #008000",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #008000",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #008000",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#008000"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #00ffff",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #00ffff",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #00ffff",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #00ffff",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #00ffff",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#00ffff"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #800080",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #800080",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #800080",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #800080",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #800080",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#800080"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #808080",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #808080",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #808080",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #808080",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #808080",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#808080"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                  <span
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "MozTransform": "scale(1)",
+                          "MozTransition": "100ms transform ease",
+                          "OTransform": "scale(1)",
+                          "OTransition": "100ms transform ease",
+                          "WebkitTransform": "scale(1)",
+                          "WebkitTransition": "100ms transform ease",
+                          "height": 28,
+                          "marginBottom": 14,
+                          "marginRight": 14,
+                          "msTransform": "scale(1)",
+                          "msTransition": "100ms transform ease",
+                          "transform": "scale(1)",
+                          "transition": "100ms transform ease",
+                          "width": 28,
+                        }
+                      }
+                    >
+                      <span
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          style={
+                            Object {
+                              "MozBorderRadius": "50%",
+                              "MozBoxShadow": "inset 0 0 0 15px #000000",
+                              "MozTransition": "100ms box-shadow ease",
+                              "OBorderRadius": "50%",
+                              "OBoxShadow": "inset 0 0 0 15px #000000",
+                              "OTransition": "100ms box-shadow ease",
+                              "WebkitBorderRadius": "50%",
+                              "WebkitBoxShadow": "inset 0 0 0 15px #000000",
+                              "WebkitTransition": "100ms box-shadow ease",
+                              "background": "transparent",
+                              "borderRadius": "50%",
+                              "boxShadow": "inset 0 0 0 15px #000000",
+                              "cursor": "pointer",
+                              "height": "100%",
+                              "msBorderRadius": "50%",
+                              "msBoxShadow": "inset 0 0 0 15px #000000",
+                              "msTransition": "100ms box-shadow ease",
+                              "outline": "none",
+                              "position": "relative",
+                              "transition": "100ms box-shadow ease",
+                              "width": "100%",
+                            }
+                          }
+                          tabIndex={0}
+                          title="#000000"
+                        />
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="form-label"
+                >
+                  Temperature:
+                </label>
+                <div
+                  className="form-row"
+                >
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="mb-2 input-group"
+                    >
+                      <input
+                        className="form-control"
+                        name="temperature_min"
+                        placeholder="Minimal temperature"
+                        type="text"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <span
+                          className="input-group-text"
+                        >
+                          °C
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col"
+                  >
+                    <div
+                      className="mb-2 input-group"
+                    >
+                      <input
+                        className="form-control"
+                        name="temperature_max"
+                        placeholder="Maximal temperature"
+                        type="text"
+                      />
+                      <div
+                        className="input-group-append"
+                      >
+                        <span
+                          className="input-group-text"
+                        >
+                          °C
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <button
+        className="m-3 btn btn-warning"
+        disabled={false}
+        id="search-button"
+        onClick={[Function]}
+        type="submit"
+      >
+        Let's go!
+      </button>
+    </div>
+  </div>
+  <div
+    className="justify-content-center row"
+  >
+    <div
+      className="col"
+    >
+      <div>
+        Default 🙈
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,65 @@
+@import './custom.scss';
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height:100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  color: $primary;
+}
+
+.base-layout {
+  display: flex;
+  width: 100vw;
+  height:100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+  .landing {
+    background-image:url('./images/landing.jpg');
+  }
+  .neutral {
+    background: #E2E2E2;
+    background: -webkit-linear-gradient(135deg, #bad4d0 0%, #d8b6c4 100%);
+    background-image: linear-gradient(135deg, #bad4d0 0%, #d8b6c4 100%);
+  }
+  .not-found {
+    background-image:url('./images/not_found.jpg');
+  }
+
+  .no-result {
+    background-image: url('./images/no_result.jpg');
+  }
+
+  .idle {
+    background-image: url('./images/idle.jpg');
+  }
+
+  .search-results {
+    background-size: cover;
+    background-color: $primary;
+  }
+
+  .filter-panel {
+    border-radius: 50px;
+    background: rgba( white, 0.4);
+    backdrop-filter: blur(40px);
+  }
+
+  .transparent {
+    background: rgba( white, 0.1);
+    backdrop-filter: blur(40px);
+  }
+
+ 
